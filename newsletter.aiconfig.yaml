@@ -1,0 +1,292 @@
+$schema: https://json.schemastore.org/aiconfig-1.0
+description:
+  "Welcome to AIConfig Editor! Write, test, and manage your prompts in
+  VS Code. Learn more [here](https://aiconfig.lastmileai.dev/docs/category/overview)!
+
+  &nbsp;
+
+  **Tip:** Open 'Global Parameters' to see variables that are used in some of the
+  prompts below."
+metadata:
+  default_model: gpt-3.5-turbo
+  models:
+    gpt-3.5-turbo:
+      model: gpt-3.5-turbo
+      temperature: 1
+      top_p: 1
+  parameters:
+    email:
+      "\"**************************\\r\\nThe Meditations Newsletter\\r\\n**************************\\\
+      r\\n\\r\\nA comic, a big idea, our favorite reads, and a little help so you\
+      \ can work better.\\r\\n\\r\\nLike the comic? Share it on the 'gram ( https://www.instagram.com/sunsamahq/\
+      \ )\U0001F609\\r\\n\\r\\n------------------------------------------------------\\\
+      r\\nWeekly Meditation: When to estimate project completion\\r\\n------------------------------------------------------\\\
+      r\\n\\r\\nWe don\u2019t usually announce a release date or that we\u2019re working\
+      \ on a feature or features until we\u2019ve already put multiple weeks into\
+      \ a project because it\u2019s nearly impossible to predict unless you\u2019\
+      ve already made a lot of progress and started to uncover what\u2019s hard, what\u2019\
+      s easy, and what you didn\u2019t know. When a project is extremely uncertain,\
+      \ it\u2019s helpful to try and \u201Cdo it all\u201D in one or two weeks (which\
+      \ you\u2019ll fail to accomplish) but it helps you quickly suss out how big\
+      \ the project would be.\\r\\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\\\
+      r\\n\\r\\n-----------------\\r\\n\u2615\uFE0F Snackables\\r\\n-----------------\\\
+      r\\n\\r\\nDigestible, quick-hitting\\xa0 blogs packed with ideas & tips to improve\
+      \ your work day.\\xa0\\r\\n\\r\\n5 Habits to Build a Productive Routine & Feel\
+      \ Fulfilled Each Day ( https://www.sunsama.com/blog/build-a-productive-routine\
+      \ )\\r\\n----------------------------------------------------------------------------------------------------------------------------\\\
+      r\\n\\r\\nBeing productive doesn't mean chaining yourself to a desk and measuring\
+      \ success by how busy you look. It's about getting things done you said you\
+      \ would in the time you estimated and having time to relax as well.\\r\\n\\\
+      r\\nIn this blog, we'll dive into the real deal about productivity, and uncover\
+      \ why your productivity levels might be on a rollercoaster. We also have a deep\
+      \ dive into five ways of boosting your productivity at work without throwing\
+      \ your personal life out of the window.\\r\\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\\\
+      r\\n\\r\\nMastering the Art of Attention: How Divided Focus Impacts Your Productivity\
+      \ ( https://www.sunsama.com/blog/divided-attention )\\r\\n------------------------------------------------------------------------------------------------------------------------------\\\
+      r\\n\\r\\nAttention is a limited resource, reserved for meaningful work \u2014\
+      so why divide it? Explore the impacts of multitasking on productivity, the neuroscience\
+      \ behind it, and the tools to keep your focus sharp and efficient in this blog.\\\
+      r\\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\\\
+      r\\n\\r\\n********************************************************************\\\
+      r\\n\U0001F4A1 \\xa0Pro-tip: Splitting a task on the calendar and multi-day\
+      \ tasks\\r\\n********************************************************************\\\
+      r\\n\\r\\nTips for splitting a task into multiple timeboxes on today\u2019s\
+      \ calendar, and overview of techniques for dealing with multi-day tasks.\\r\\\
+      n-------------------------------------------------------------------------------------------------------------------------------------\\\
+      r\\n\\r\\n( https://www.loom.com/share/49f1a0342e4943cb822d4202f7b483e1 )\\\
+      r\\n\\r\\nGot a pro-tip that works for you? Share it with the squad ( https://airtable.com/shrQcRt1wDpI9MHHB\
+      \ )!\\r\\n-----------------------------------------------------------------------------------------------------\\\
+      r\\n\\r\\n-----------------\\r\\n\U0001F64B Ask Ashutosh\\r\\n-----------------\\\
+      r\\n\\r\\nDrop your question here ( https://airtable.com/shr37Z0aOaqrmlSBh )\
+      \ to get an answer in a future newsletter.\\xa0\\r\\n\\r\\n\U0001F4AC \\xa0Evan\
+      \ Asks:\\r\\n\\r\\nDo you have advice for better handling the Scary Email Responses?\
+      \ Specifically, ones you've put off dealing with/forgotten/buried in your inbox,\
+      \ and now have to deal with as part of your work?\\r\\n\\xa0\\r\\n\U0001F399\
+      \ Ashutosh's response:\\r\\n\\r\\nI feel you. I used to delay and procrastinate\
+      \ on emails for days I didn\u2019t want to deal with because thinking about\
+      \ them stressed me out. I think an inbox-zero strategy helps deal with this.\
+      \ It\u2019s just my policy to respond to every email that comes in a day whether\
+      \ I enjoy the email or not. To this day, I think of email as school homework.\
+      \ It\u2019s just something you need to do, that you won\u2019t enjoy, and it\u2019\
+      s getting in the way of the fun stuff.\\r\\n\\r\\nThe funny thing is, even doing\
+      \ inbox-zero, I actually still see the same procrastination behavior but it\u2019\
+      s isolated to one day and one inbox session. The emails I really don\u2019t\
+      \ want to respond to are the ones I\u2019ll read, skip over, and then swap to\
+      \ another email that\u2019s easier to deal with. I keep repeating this cycle\
+      \ until the email in question is the only one left in my inbox. It\u2019s not\
+      \ efficient to skim that same email seven times as I avoid it each time but\
+      \ it\u2019s better than letting it linger for days.\\r\\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\\\
+      r\\n\\r\\n-----------------------\\r\\n\U0001F3C6 Sunsama Squad Wins\\r\\n-----------------------\\\
+      r\\n\\r\\nHave something to share about Sunsama? Tag us on Twitter @sunsamahq\\\
+      r\\n\\r\\nWrite us back!\\r\\n--------------\\r\\n\\r\\nWant your question answered\
+      \ next week? Ask Ashutosh here ( https://airtable.com/shr37Z0aOaqrmlSBh ).\\\
+      xa0\\r\\n\\r\\n\\xa0\\r\\n\\r\\nHave any other feedback on our newsletter (or\
+      \ product). Reply to this email and I'll take a look\\xa0 \U0001F440\\r\\n\\\
+      r\\n\\xa0\\r\\n\\r\\nWork less, achieve more. The way of Sunsama.\\r\\n\\r\\\
+      nStart planning your day \u2192 ( https://sunsama.com/ )\\r\\n\\u200a\\xa0\\\
+      r\\n\\r\\n\\xa0\\r\\n\\r\\n\\u200a\\xa0\\r\\n\\r\\nTwitter ( https://twitter.com/sunsamaHQ\
+      \ )Instagram ( https://www.instagram.com/sunsamahq )LinkedIn ( https://www.linkedin.com/company/sunsama\
+      \ )Read this email in your browser or share it with friends! ( http://track.customer.io/deliveries/dgTxigYDANWZ_wHUmf8BAY5mJDf-zhgTezIXn2glXQ==\
+      \ )\\r\\n\\r\\nIf you don't want the newsletter,\\xa0unsubscribe here ( https://api.sunsama.com/drip/unsubscribe-newsletter?email=haranbolt@gmail.com\
+      \ ).\""
+name: Newsletter summarizer
+prompts:
+  - input:
+      "Summarize the newsletter concisely in a paragraph, limited to 5-6 lines.
+      Begin with a key insight, followed by a preview of the contents. Use concise,
+      dense language, employing incomplete sentences if necessary to include as much
+      information as possible.
+
+
+      {{email}}"
+    metadata:
+      model:
+        name: gpt-3.5-turbo
+        settings: {}
+      parameters: {}
+    name: prompt_get_tldr
+    outputs:
+      - data:
+          The key insight in this newsletter is the importance of not announcing project
+          completion until significant progress has been made. In addition to a weekly
+          meditation on project estimation, the newsletter features two snackable blogs
+          on productive routines and divided attention, as well as a pro-tip on splitting
+          tasks and Ask Ashutosh segment on handling scary email responses. The newsletter
+          ends with a call for feedback, and promoting Sunsama's productivity planning
+          tool.
+        execution_count: 0
+        metadata:
+          created: 1711297260
+          id: chatcmpl-96KseLU3wUZwziDXWNtKdBgUYd5tF
+          model: gpt-3.5-turbo-0125
+          object: chat.completion.chunk
+          raw_response:
+            content:
+              The key insight in this newsletter is the importance of not announcing
+              project completion until significant progress has been made. In addition
+              to a weekly meditation on project estimation, the newsletter features two
+              snackable blogs on productive routines and divided attention, as well as
+              a pro-tip on splitting tasks and Ask Ashutosh segment on handling scary
+              email responses. The newsletter ends with a call for feedback, and promoting
+              Sunsama's productivity planning tool.
+            role: assistant
+          role: assistant
+          system_fingerprint: fp_3bc1b5746c
+        output_type: execute_result
+  - input:
+      "Transform the newsletter content into a bullet-point list, capturing every
+      detail including headlines, subheadings, and sections, in their original sequence.
+      Present the information as if you are the author, using only bullet points without
+      additional text.
+
+
+      {{email}}"
+    metadata:
+      model:
+        name: gpt-3.5-turbo
+        settings: {}
+      parameters:
+        email:
+          "\"**************************\\r\\nThe Meditations Newsletter\\r\\n**************************\\\
+          r\\n\\r\\nA comic, a big idea, our favorite reads, and a little help so you\
+          \ can work better.\\r\\n\\r\\nLike the comic? Share it on the 'gram ( https://www.instagram.com/sunsamahq/\
+          \ )\U0001F609\\r\\n\\r\\n------------------------------------------------------\\\
+          r\\nWeekly Meditation: When to estimate project completion\\r\\n------------------------------------------------------\\\
+          r\\n\\r\\nWe don\u2019t usually announce a release date or that we\u2019re\
+          \ working on a feature or features until we\u2019ve already put multiple weeks\
+          \ into a project because it\u2019s nearly impossible to predict unless you\u2019\
+          ve already made a lot of progress and started to uncover what\u2019s hard,\
+          \ what\u2019s easy, and what you didn\u2019t know. When a project is extremely\
+          \ uncertain, it\u2019s helpful to try and \u201Cdo it all\u201D in one or\
+          \ two weeks (which you\u2019ll fail to accomplish) but it helps you quickly\
+          \ suss out how big the project would be.\\r\\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\\\
+          r\\n\\r\\n-----------------\\r\\n\u2615\uFE0F Snackables\\r\\n-----------------\\\
+          r\\n\\r\\nDigestible, quick-hitting\\xa0 blogs packed with ideas & tips to\
+          \ improve your work day.\\xa0\\r\\n\\r\\n5 Habits to Build a Productive Routine\
+          \ & Feel Fulfilled Each Day ( https://www.sunsama.com/blog/build-a-productive-routine\
+          \ )\\r\\n----------------------------------------------------------------------------------------------------------------------------\\\
+          r\\n\\r\\nBeing productive doesn't mean chaining yourself to a desk and measuring\
+          \ success by how busy you look. It's about getting things done you said you\
+          \ would in the time you estimated and having time to relax as well.\\r\\n\\\
+          r\\nIn this blog, we'll dive into the real deal about productivity, and uncover\
+          \ why your productivity levels might be on a rollercoaster. We also have a\
+          \ deep dive into five ways of boosting your productivity at work without throwing\
+          \ your personal life out of the window.\\r\\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\\\
+          r\\n\\r\\nMastering the Art of Attention: How Divided Focus Impacts Your Productivity\
+          \ ( https://www.sunsama.com/blog/divided-attention )\\r\\n------------------------------------------------------------------------------------------------------------------------------\\\
+          r\\n\\r\\nAttention is a limited resource, reserved for meaningful work \u2014\
+          so why divide it? Explore the impacts of multitasking on productivity, the\
+          \ neuroscience behind it, and the tools to keep your focus sharp and efficient\
+          \ in this blog.\\r\\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\\\
+          r\\n\\r\\n********************************************************************\\\
+          r\\n\U0001F4A1 \\xa0Pro-tip: Splitting a task on the calendar and multi-day\
+          \ tasks\\r\\n********************************************************************\\\
+          r\\n\\r\\nTips for splitting a task into multiple timeboxes on today\u2019\
+          s calendar, and overview of techniques for dealing with multi-day tasks.\\\
+          r\\n-------------------------------------------------------------------------------------------------------------------------------------\\\
+          r\\n\\r\\n( https://www.loom.com/share/49f1a0342e4943cb822d4202f7b483e1 )\\\
+          r\\n\\r\\nGot a pro-tip that works for you? Share it with the squad ( https://airtable.com/shrQcRt1wDpI9MHHB\
+          \ )!\\r\\n-----------------------------------------------------------------------------------------------------\\\
+          r\\n\\r\\n-----------------\\r\\n\U0001F64B Ask Ashutosh\\r\\n-----------------\\\
+          r\\n\\r\\nDrop your question here ( https://airtable.com/shr37Z0aOaqrmlSBh\
+          \ ) to get an answer in a future newsletter.\\xa0\\r\\n\\r\\n\U0001F4AC \\\
+          xa0Evan Asks:\\r\\n\\r\\nDo you have advice for better handling the Scary\
+          \ Email Responses? Specifically, ones you've put off dealing with/forgotten/buried\
+          \ in your inbox, and now have to deal with as part of your work?\\r\\n\\xa0\\\
+          r\\n\U0001F399 Ashutosh's response:\\r\\n\\r\\nI feel you. I used to delay\
+          \ and procrastinate on emails for days I didn\u2019t want to deal with because\
+          \ thinking about them stressed me out. I think an inbox-zero strategy helps\
+          \ deal with this. It\u2019s just my policy to respond to every email that\
+          \ comes in a day whether I enjoy the email or not. To this day, I think of\
+          \ email as school homework. It\u2019s just something you need to do, that\
+          \ you won\u2019t enjoy, and it\u2019s getting in the way of the fun stuff.\\\
+          r\\n\\r\\nThe funny thing is, even doing inbox-zero, I actually still see\
+          \ the same procrastination behavior but it\u2019s isolated to one day and\
+          \ one inbox session. The emails I really don\u2019t want to respond to are\
+          \ the ones I\u2019ll read, skip over, and then swap to another email that\u2019\
+          s easier to deal with. I keep repeating this cycle until the email in question\
+          \ is the only one left in my inbox. It\u2019s not efficient to skim that same\
+          \ email seven times as I avoid it each time but it\u2019s better than letting\
+          \ it linger for days.\\r\\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\\\
+          r\\n\\r\\n-----------------------\\r\\n\U0001F3C6 Sunsama Squad Wins\\r\\\
+          n-----------------------\\r\\n\\r\\nHave something to share about Sunsama?\
+          \ Tag us on Twitter @sunsamahq\\r\\n\\r\\nWrite us back!\\r\\n--------------\\\
+          r\\n\\r\\nWant your question answered next week? Ask Ashutosh here ( https://airtable.com/shr37Z0aOaqrmlSBh\
+          \ ).\\xa0\\r\\n\\r\\n\\xa0\\r\\n\\r\\nHave any other feedback on our newsletter\
+          \ (or product). Reply to this email and I'll take a look\\xa0 \U0001F440\\\
+          r\\n\\r\\n\\xa0\\r\\n\\r\\nWork less, achieve more. The way of Sunsama.\\\
+          r\\n\\r\\nStart planning your day \u2192 ( https://sunsama.com/ )\\r\\n\\\
+          u200a\\xa0\\r\\n\\r\\n\\xa0\\r\\n\\r\\n\\u200a\\xa0\\r\\n\\r\\nTwitter ( https://twitter.com/sunsamaHQ\
+          \ )Instagram ( https://www.instagram.com/sunsamahq )LinkedIn ( https://www.linkedin.com/company/sunsama\
+          \ )Read this email in your browser or share it with friends! ( http://track.customer.io/deliveries/dgTxigYDANWZ_wHUmf8BAY5mJDf-zhgTezIXn2glXQ==\
+          \ )\\r\\n\\r\\nIf you don't want the newsletter,\\xa0unsubscribe here ( https://api.sunsama.com/drip/unsubscribe-newsletter?email=haranbolt@gmail.com\
+          \ ).\""
+    name: prompt_get_bullet_points
+    outputs:
+      - data:
+          "- The Meditations Newsletter\n- A comic, a big idea, our favorite reads,\
+          \ and a little help for better work.\n- Weekly Meditation: When to estimate\
+          \ project completion\n    - Avoid announcing release dates too early in a project\
+          \ due to uncertainty.\n    - Recommended to try \"doing it all\" in one or two\
+          \ weeks to gauge project size.\n- Snackables: \n    - 5 Habits to Build a Productive\
+          \ Routine & Feel Fulfilled Each Day\n    - Mastering the Art of Attention: How\
+          \ Divided Focus Impacts Your Productivity\n- Pro-tip: Splitting a task on the\
+          \ calendar and multi-day tasks\n    - Tips on splitting tasks into timeboxes\
+          \ for better organization.\n- Ask Ashutosh: \n    - Response to handling Scary\
+          \ Email Responses and procrastination.\n- Sunsama Squad Wins: \n    - Share\
+          \ feedback and tag Sunsama on Twitter.\n- Work less, achieve more with Sunsama.\n\
+          - Links to social media, website, and unsubscribe option."
+        execution_count: 0
+        metadata:
+          created: 1711297080
+          id: chatcmpl-96Kpkwnbu7JNuCTeFOpufP7pd0xLh
+          model: gpt-3.5-turbo-0125
+          object: chat.completion.chunk
+          raw_response:
+            content:
+              "- The Meditations Newsletter\n- A comic, a big idea, our favorite\
+              \ reads, and a little help for better work.\n- Weekly Meditation: When to\
+              \ estimate project completion\n    - Avoid announcing release dates too\
+              \ early in a project due to uncertainty.\n    - Recommended to try \"doing\
+              \ it all\" in one or two weeks to gauge project size.\n- Snackables: \n\
+              \    - 5 Habits to Build a Productive Routine & Feel Fulfilled Each Day\n\
+              \    - Mastering the Art of Attention: How Divided Focus Impacts Your Productivity\n\
+              - Pro-tip: Splitting a task on the calendar and multi-day tasks\n    - Tips\
+              \ on splitting tasks into timeboxes for better organization.\n- Ask Ashutosh:\
+              \ \n    - Response to handling Scary Email Responses and procrastination.\n\
+              - Sunsama Squad Wins: \n    - Share feedback and tag Sunsama on Twitter.\n\
+              - Work less, achieve more with Sunsama.\n- Links to social media, website,\
+              \ and unsubscribe option."
+            role: assistant
+          role: assistant
+          system_fingerprint: fp_3bc1b5746c
+        output_type: execute_result
+  - input:
+      "Extract key themes from the newsletter and return them as a comma-separated
+      list
+
+
+      {{email}}"
+    metadata:
+      model: gpt-3.5-turbo
+      parameters: {}
+    name: get_themes
+    outputs:
+      - data:
+          Project Estimation, Productivity Habits, Attention Management, Task Organization,
+          Email Handling, Feedback Collection, Sunsama Promotion.
+        execution_count: 0
+        metadata:
+          created: 1711304826
+          id: chatcmpl-96Mqgo5kZQk2DFRLXLkZkbRJSiiWS
+          model: gpt-3.5-turbo-0125
+          object: chat.completion.chunk
+          raw_response:
+            content:
+              Project Estimation, Productivity Habits, Attention Management, Task
+              Organization, Email Handling, Feedback Collection, Sunsama Promotion.
+            role: assistant
+          role: assistant
+          system_fingerprint: fp_3bc1b5746c
+        output_type: execute_result
+schema_version: latest
